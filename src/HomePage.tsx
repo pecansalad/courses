@@ -47,11 +47,11 @@ const HomePage: React.FC = () => {
         <h1> Courses </h1>
       </div>
       <div css={styles.seasons}>
-        <Link to="/2020/sp" css={styles.season("#809848")}>
-          <h2 css={{ fontSize: "2.5em" }}> Spring </h2>
+        <Link to="/2021/sp" css={styles.season("#809848")}>
+          <h2 css={{ fontSize: "2.2em" }}> Spring 21 </h2>
         </Link>
         <Link to="/2020/fa" css={styles.season("#e08e45")}>
-          <h2 css={{ fontSize: "2.5em" }}> Fall </h2>
+          <h2 css={{ fontSize: "2.2em" }}> Fall 20</h2>
         </Link>
       </div>
     </div>

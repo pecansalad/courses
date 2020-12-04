@@ -7,8 +7,8 @@ import { IRequirement, Op } from "./types";
 
 export const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://schedge.torchnyu.com"
-    : "https://schedge.torchnyu.com";
+    ? "https://schedge.a1liu.com"
+    : "https://schedge.a1liu.com";
 
 export const weirdCourseNames: { [s: string]: string } = {
   "Intro to Computer SCI": "Intro to Computer Science",
