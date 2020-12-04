@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 import React from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Link, Route, Switch } from "react-router-dom";
 import HomePage from "./HomePage";
 import MainPage from "./MainPage";
 import MobileMainPage from "./MobileMainPage";
